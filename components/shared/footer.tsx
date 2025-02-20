@@ -2,7 +2,7 @@
 
 import { ChevronUp, Link } from 'lucide-react'
 import { Button } from '../ui/button'
-import { APP_NAME } from '@/lib/constants'
+
 
 export default function Footer() {
   return (
@@ -23,7 +23,7 @@ export default function Footer() {
             <Link href='/page/help'>Help</Link>
           </div>
           <div className='lex justify-center text-sm'>
-            <p>© 2015 - 2025 {APP_NAME}, Inc. or its affiliates</p>
+            <p>© 2015 - 2025 Amazon, Inc. or its affiliates</p>
           </div>
 
           <div className='mt-8 flex justify-center text-sm text-gray-400'>
