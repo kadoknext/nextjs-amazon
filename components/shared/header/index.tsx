@@ -1,11 +1,10 @@
-import { APP_NAME } from '@/lib/constants'
-import Image from 'next/image'
 import Link from 'next/link'
 import Search from './search'
 import { Button } from '@/components/ui/button'
 import { MenuIcon } from 'lucide-react'
 import data from '@/lib/data'
 import Menu from './menu'
+import Image from 'next/image'
 
 export default async function Header() {
   return (
@@ -21,9 +20,9 @@ export default async function Header() {
                 src='/icons/logo.svg'
                 width={40}
                 height={40}
-                alt={`${APP_NAME} logo`}
+                alt="Amazon"
               />
-              {APP_NAME}
+              Amazon
             </Link>
           </div>
 
