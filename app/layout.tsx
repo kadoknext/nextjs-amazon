@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import { APP_DESCRIPTION, APP_NAME, APP_SLOGAN } from "@/lib/constants";
+// import { APP_DESCRIPTION, APP_NAME, APP_SLOGAN } from "@/lib/constants";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -15,10 +15,10 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    template: `%s | ${APP_NAME}`,
-    default: `${APP_NAME}, ${APP_SLOGAN}`,
+    template: "Amz",
+    default: "Amz-Mono",
   },
-  description: APP_DESCRIPTION,
+  description: "Description",
 }
 
 
