@@ -15,7 +15,7 @@ export default async function Header() {
           <div className='flex items-center'>
             <Link
               href='/'
-              className='flex items-center header-button font-extrabold text-2xl m-1 '
+              className='flex items-center cursor-pointer p-1 border border-transparent hover:border-white rounded-[2px] font-extrabold text-2xl m-1 '
             >
               <Image
                 src='/icons/logo.svg'
@@ -39,7 +39,7 @@ export default async function Header() {
         <div className='flex items-center px-3 mb-[1px] bg-gray-800'>
           <Button
             variant='ghost'
-            className='dark header-button flex items-center px-3 mb-[1px] text-base [&>svg]:w-6'
+            className='dark cursor-pointer p-1 border border-transparent hover:border-white rounded-[2px] flex items-center px-3 mb-[1px] text-base [&>svg]:w-6'
           >
             <MenuIcon />
             All
@@ -50,7 +50,7 @@ export default async function Header() {
               <Link
                 key={menu.href}
                 href={menu.href}
-                className='header-button !p-2'
+                className='cursor-pointer border border-transparent hover:border-white rounded-[2px] !p-2'
               >
                 {menu.name}
               </Link>
